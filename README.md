@@ -17,7 +17,6 @@ A web-based 3D DJ controller interface built with Three.js and Web Audio API. Th
 
 The project includes a collection of drum loops in the `DrumLoops` directory:
 
-
 These loops are perfect for:
 - Practicing mixing techniques
 - Testing the BPM controls
@@ -38,6 +37,25 @@ To use the drum loops:
 - JavaScript (ES6+)
 
 ## Setup
+
+### Using WebStorm (Recommended)
+
+1. Open WebStorm
+2. Clone the Repository "https://github.com/roryh02/3D-DJ-Controller.git"
+3. Navigate to and select the 3D-DJ-Controller folder
+4. Wait for WebStorm to index the project files
+5. Open the integrated terminal (View -> Tool Windows -> Terminal)
+6. Install dependencies:
+```bash
+npm install
+```
+7. Configure the run configuration:
+   - Click on "More tool windows" in the left toolbar
+   - Select "npm"
+   - Open dev in the terminal
+8.   Select `http://localhost:5173` and the project will open in your default browser.
+
+### Using Command Line
 
 1. Clone the repository:
 ```bash
@@ -69,7 +87,7 @@ npm run dev
 
 ```
 3D-DJ-Controller/
-├── drum_loops/          # Built-in drum loops for practice
+├── DrumLoops/          # Built-in drum loops for practice
 ├── src/                 # Source code
 │   ├── main.js         # Main application logic
 │   ├── index.html      # HTML template
